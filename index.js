@@ -50,17 +50,17 @@ const questions = [{
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-    fs.writeFile(fileName, data, function(err) {
+    fs.writeFile(fileName, data, function(error) {
         console.log(fileName)
         console.log(data)
-        if (err) {
-            return console.log(err)
+        if (error) {
+            return console.log(error)
 
         } else {
             console.log("Success!")
         }
     })
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
@@ -69,7 +69,7 @@ function init() {
             writeToFile("README.md", generateMarkdown(data));
             console.log(data)
         })
-}
+};
 
 // Function call to initialize app
 init();
