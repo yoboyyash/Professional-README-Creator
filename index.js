@@ -4,7 +4,10 @@ const fs = require('fs');
 const inquirer = require("inquirer");
 
 
+
 const generateMarkdown = require('./utils/generateMarkdown');
+
+
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -28,8 +31,20 @@ const questions = [{
 }, {
 
     type: "input",
-    message: "How is the app used? Give instructions",
+    message: "How is this project installed or implemented?",
     name: "usage"
+
+}, {
+
+    type: "input",
+    message: "Other members with contributions to this project:",
+    name: "contribution"
+
+}, {
+
+    type: "input",
+    message: "What license does this project use?",
+    name: "license"
 
 }, {
 
@@ -73,3 +88,8 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+
+
+

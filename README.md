@@ -1,20 +1,30 @@
 
   
-  # Professional README.md Creator!
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  ## Read it All, Yall!
+  # The README Generator!
+
+  ## READ IT all, yall!
 
   Table of Contents
   
   * [Description](#descriptionP1)
   * [How to](#usage)
+  * [License](#licenseSection)
   * [Contact](#email)
 
-  <p> This is a development that allows you create a read me file for future projects by invoking this node module which will prompt you with a series of questions. The inputs to the questions answered via the terminal will be written out as a  README.md file  with all of the data provided.  </p>
+  <p> This project has been created to make a README.md file via a questionnaire invoked via PowerShell. You can then use that markdown file on any of your projects which you can quickly copy and paste into is folder accordingly. </p>
   
-  <p> This is used when you have the appropriate js files (index.js and generateMarkdown.js)  along with node modules installed and then invoking the index  script via the terminal and finishing with an end result of a written markdown file according to the data you provide.  </p>
+  <p> To deploy this, you will need to have the Professional README Creator file conglomeration along with node and all its dependencies then you will need to invoke the index.js via terminal (node index.js) and proceed with the question asked to have a finished README.md. </p>
 
-  <p> yoboyyash </p>
+  <p> Project Contributors: N/A </p>
 
+  
+    Project License: MIT  
+  https://opensource.org/licenses/MIT
+
+  <p> (https://github.com/yoboyyash) </p>
+
+  <p> Contact Me! </p>
   <p> yashrajbaviskar@gmail.com </p>
 
